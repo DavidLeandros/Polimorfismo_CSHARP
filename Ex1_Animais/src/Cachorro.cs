@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace app.src
+namespace Ex1_Animais.src
 {
     public class Cachorro : Animal
     {
@@ -12,15 +12,15 @@ namespace app.src
         }
         public override void Dormir()
         {
-            Console.WriteLine($"Cachorro está dormindo rghrhrhr");
+            Console.WriteLine($"\n == {Nome} está dormindo rghrhrhr == \n");
         }
         public override void Comer()
         {
-            Console.WriteLine($"Cachorro está comendo nahminhami");
+            Console.WriteLine($"\n== {Nome} está comendo nahminhami == \n");
         }
         public void Latir()
         {
-            Console.WriteLine($"Cachorro está Latindo.");
+            Console.WriteLine($"\n== {Nome} está Latindo == \n");
         }
     }
     

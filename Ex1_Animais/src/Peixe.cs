@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace app.src.Interface
+namespace Ex1_Animais.src.Interface
 {
     public class Peixe : Animal, IAcoesPeixe
     {
@@ -12,7 +12,7 @@ namespace app.src.Interface
         }
         public void Nadar()
         {
-            Console.WriteLine($"Peixe está nadando");
+            Console.WriteLine($"\n== {Nome} está nadando == \n");
         }
         
     }

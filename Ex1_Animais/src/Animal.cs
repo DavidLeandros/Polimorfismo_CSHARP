@@ -1,6 +1,6 @@
 using System;
 
-namespace app.src
+namespace Ex1_Animais.src
 {
     public class Animal
     {

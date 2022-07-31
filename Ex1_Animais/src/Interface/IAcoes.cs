@@ -1,6 +1,7 @@
-namespace app.src.Interface 
-
-interface IAcoesPeixe
+namespace Ex1_Animais.src.Interface 
 {
-    void Nadar();
+interface IAcoesPeixe
+    {
+        void Nadar();
+    }
 }
